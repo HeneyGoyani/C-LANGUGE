@@ -47,14 +47,14 @@ main()
  		 	{
  		 		for(j=0; j<col; j++)
  		 		{
- 		 			if(a[i][j]>n)
+ 		 			if(n<a[i][j])
  		 			{
  		 				n = a[i][j];
  		 				
 					  }
- 		 				printf("%d is large element\t",n);
 				  }
 			  }
+ 		 				printf("%d is large element\t",n);
 
 
 }
